@@ -254,7 +254,7 @@ article .image {
 article .image img {
     width: 50px;
     border-radius: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 
 }
 
@@ -267,17 +267,24 @@ article .image img {
 
 }
 
-.lolla {
-    display: flex;
-    padding-left: 40px;
-    padding-right: 20px;
-}
+
 
 footer {
     background-color: #2b4c99;
     display: flex;
     color: #fff;
     justify-content: center;
+
+}
+
+.lolla {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 20px;
+    justify-self: center;
+    align-self: center;
+    font-size: 10px;
+    margin-bottom: 50px;
 
 }
 
@@ -294,21 +301,19 @@ footer {
 
 .footer_menu img {
     width: 180px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+
+
 }
 
 
-.footer_areaitem {
-    justify-content: flex-start;
-    display: inline-block;
-    margin-right: 700px;
-}
+
 
 .footer_areaitem a {
     color: #fff;
     text-decoration: none;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .footer_areaitem ul {
@@ -317,10 +322,11 @@ footer {
 }
 
 .links {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 
 .links img {
-    width: 25px;
+    width: 40px;
 
 }
