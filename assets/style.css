@@ -294,7 +294,7 @@ footer {
 
 .footer_menu img {
     width: 180px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 
@@ -307,8 +307,6 @@ footer {
 .footer_areaitem a {
     color: #fff;
     text-decoration: none;
-    padding-top: 40px;
-    padding-bottom: 40px;
     font-weight: 300;
     font-size: 15px;
 }
@@ -323,10 +321,6 @@ footer {
 }
 
 .links img {
-    width: 30px;
+    width: 25px;
 
-}
-
-.links .git img {
-    margin-top: 10px
 }
